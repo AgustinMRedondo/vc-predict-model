@@ -6,14 +6,14 @@ import streamlit as st
 from PIL import Image
 
 
-def ml():
+def nn_adam():
 
     st.image('images/ActivistInvestor.png')
     st.title("Model to predict if you should invest or no")
 
     # loading the model
     models_path = 'models/'
-    model_name = models_path + 'LRM_model.pkl'
+    model_name = models_path + 'nn_adam.pkl'
     loaded_model = pickle.load(open(model_name, 'rb'))
 
     # loading the scaler
