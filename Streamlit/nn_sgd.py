@@ -8,8 +8,8 @@ from PIL import Image
 
 def nn_sgd():
 
-    st.image('images/ActivistInvestor.png')
-    st.title("Model to predict if you should invest or no")
+    st.image('images/nnmodels1.jpeg')
+    st.title("Predict using AI: Neural Network with SGD predictions")
 
     # loading the model
     models_path = 'models/'

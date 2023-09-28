@@ -14,6 +14,7 @@ from ml import ml
 from nn_adam import nn_adam
 from nn_sgd import nn_sgd
 
+
 def main():
 
     #############
@@ -24,8 +25,8 @@ def main():
     choice = st.sidebar.selectbox("Menu",options, key = '1')
 
     if ( choice == 'Home' ):
-      st.title("Welcome to the SUPERMAN INVESTOR TOOL")
-      st.image('./images/ActivistInvestor.png')
+      st.title("Hey VC lazy guy, here again? Let's figure out if that company worths an investment")
+      st.image('./images/vc_meme.jpeg')
       st.text("Disclaimer: this is a trial version 1.0.0 with Crunchbase public data up to 2016. It's not recommended to invest only guiding in the model predictions")
       pass
 

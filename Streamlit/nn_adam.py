@@ -8,8 +8,8 @@ from PIL import Image
 
 def nn_adam():
 
-    st.image('images/ActivistInvestor.png')
-    st.title("Model to predict if you should invest or no")
+    st.image('images/nnmodels.jpeg')
+    st.title("Predict using AI: Neural Network with Adam predictions")
 
     # loading the model
     models_path = 'models/'

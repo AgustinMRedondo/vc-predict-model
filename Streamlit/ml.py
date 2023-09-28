@@ -8,8 +8,8 @@ from PIL import Image
 
 def ml():
 
-    st.image('images/ActivistInvestor.png')
-    st.title("Model to predict if you should invest or no")
+    st.image('images/logistic_regression.jpg')
+    st.title("Predictions with Linear Regression Model")
 
     # loading the model
     models_path = 'models/'

@@ -1,4 +1,4 @@
-streamlit as st
+streamlit==0.88.0
 PIL import Image
 ml import ml
 numpy as np
